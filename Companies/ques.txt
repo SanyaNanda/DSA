@@ -1,0 +1,26 @@
+Google
+
+grid of 0,1s
+there is a robot at (0,0)
+it is facing east, can move in the same direction if 0 is there
+if not zero, it rotates clockwise (that is if it finds 1 on its current path or unbound)
+return the count of uniquely vistable 0s
+
+
+Amazon WOW
+
+1d infinite forest
+if n is even n/2
+if n is odd 3*n+1
+
+you are given say 10
+so you have to return the n in between 1 and 10, with largest number of paths covered
+ans: 9->28->14->7->22->11->34->17->52->26->13->40->20->10->5->16->8->4->2->1
+so 9 will cover the longest path
+return 9
+
+if m=5
+return 3
+
+
+
