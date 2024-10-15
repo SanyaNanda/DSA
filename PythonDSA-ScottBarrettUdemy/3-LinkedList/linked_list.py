@@ -147,7 +147,7 @@ class LinkedList:
         self.length -= 1
         return temp
 
-    # Method 10: Reverse the LL
+    # Method 10: Reverse the LL: https://leetcode.com/problems/reverse-linked-list/
     def reverse(self):
         # swap head and tail using temp
         temp = self.head
