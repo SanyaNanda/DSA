@@ -91,14 +91,17 @@ class DoublyLinkedList:
         return temp
 
     # Method 6: get the value on the given index
+    # Regular LL method works, but this is further optimized
     def get(self, index):
         # check validity of bounds of index
         if index < 0 or index >= self.length:
             return None
+        # if index in first half of the DLL, use head
         temp = self.head
         if index < self.length/2:
             for _ in range(index):
                 temp = temp.next
+        # if index in second half of the DLL, use tail
         else:
             temp = self.tail
             for _ in range(self.length - 1, index, -1):
