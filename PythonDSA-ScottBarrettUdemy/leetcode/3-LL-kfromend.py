@@ -63,7 +63,7 @@ def removeNthFromEnd(self, n: int):
     for _ in range(n):
         fast = fast.next
     if fast == None:
-        return head.next
+        return self.head.next
     while(fast and fast.next):
         fast = fast.next
         slow = slow.next
